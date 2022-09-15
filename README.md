@@ -14,13 +14,13 @@ The data analytics team has been tasked to do the following:
 R Programming Language, RStudio and Statiscs
 Data sources: MechaCar_mpg.csv, Suspension_Coil.csv
 
-#Linear Regression to Predict MPG
+# Linear Regression to Predict MPG
 The MechaCar dataset contains a sample size of 50 prototypes measuring the miles per gallon across multiple variables. The linear regression was calculated using R in RStudio.
 
 ![lm_mpg](https://github.com/acegal1/MechaCar_Statistical_Analysis/blob/main/images/lm_mpg.jpg)
 
 
-#Summary of Linear Regression model
+# Summary of Linear Regression model
 A summary of the linear regression can be displayed to determine the quality of the dataset. In this distribution of the residuals, the dataset fits in with the normal parameters, where the absolute value of the min and max are comparable |-19.47|~|18.58| and the median -.07 is close to zero.
 
 ![mpg_summary](https://github.com/acegal1/MechaCar_Statistical_Analysis/blob/main/images/mpg_summary.jpg)
@@ -34,7 +34,7 @@ The multiple linear regression formula for mpg = -.01 + 6.267(vehicle length)+.0
 R-squared is .7149, which is a strong correlation for the dataset and shows the dataset is an effective dataset. However, r-squared is not the only consideration for effectiveness. There may be other variables not included in the dataset contributing to the variation in the mpg.
 
 
-#Summary statistics on the pounds per square inch (PSI) of Suspension Coils 
+# Summary statistics on the pounds per square inch (PSI) of Suspension Coils 
 
 Below is the total_summary or combined statistics on all the manufacturing lots. The mean is 1498.78 for this sample and the population mean was determined to be 1500.
 
@@ -42,7 +42,7 @@ Below is the total_summary or combined statistics on all the manufacturing lots.
 
 Below is the summary by manufacturing lots.  The means of the lot numbers are similar to the population mean and sample mean. 
 
-![2total_lot_sum](https://github.com/acegal1/MechaCar_Statistical_Analysis/blob/main/images/2total_lotsum.jpg)
+![2total_lot_sum](https://github.com/acegal1/MechaCar_Statistical_Analysis/blob/main/images/2total_lot_sum.jpg)
 
 In the total_summary, the variance of all three lots fall under the maximum variance of 100 PSI with a variance of 62 PSI.
 
