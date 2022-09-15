@@ -3,10 +3,12 @@
 .Rapp.history
 
 # Session Data files
-.RData
+#.RData  added comment
+MechaCar_mpg.csv
+Suspension_Coil.csv
 
 # User-specific files
-.Ruserdata
+#.Ruserdata added commint
 
 # Example code in package build process
 *-Ex.R
